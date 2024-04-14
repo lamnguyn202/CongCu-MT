@@ -31,3 +31,10 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /tests/tests/
 /tests/results/
 #-------------------------
+
+*.bin
+*.obj
+*.vs
+bin/
+obj/
+vs/
