@@ -1,11 +1,9 @@
 <?php require(__DIR__.'/layouts/header.php'); ?>
 <div class="container-fluid">
 
-                    <!-- Page Heading -->
                     <h1 class="h3 mb-2 text-gray-800">Linh Kiện</h1>
                     <p class="mb-4">Dữ liệu được lấy trong bảng sản phẩm, bao gồm các thông tin liên quan đến sản phẩm Linh Kiện.</p>
 
-                   <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
                             <h6 class="m-0 font-weight-bold text-primary">Tất cả: Linh Kiện</h6>
@@ -81,7 +79,7 @@
                                 <span aria-hidden="true">×</span>
                             </button>
                         </div>
-                        <div class="modal-body">Bạn có chắc chắn xóa sản phẩm này?</div>
+                        <div class="modal-body">Bạn có chắc chắn muốn xóa sản phẩm này?</div>
                         <div class="modal-footer">
                             <button class="btn btn-secondary" type="button" data-dismiss="modal">Hủy</button>
                             <a class="btn btn-primary" href="<?php echo base_url('admin/dang-xuat'); ?>" id="deleteProduct">Xóa</a>
