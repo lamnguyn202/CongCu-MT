@@ -1,18 +1,22 @@
 <?php require(__DIR__.'/layouts/header.php'); ?>		
 <?php require(__DIR__.'/layouts/nav.php'); ?>
+
 <style>
 	img {
 		max-width: 100%;
 		image-rendering: -webkit-optimize-contrast;
 	}
+	
 </style>
 <div class="single_post">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2">
-					<div class="single_post_title"><?php echo $tinTuc[0]['tieuDe']; ?></div>
+			<div class="row" style="flex-wrap: wrap;flex-direction: column;">
+					<div class="single_post_title" style=" text-align: center;"><?php echo $tinTuc[0]['tieuDe']; ?></div>
+					<div class="single_post_title">
+						<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ykGtKriglUk?si=LhopUutlpbKeJGDC&autoplay=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>				<div class="col-lg-8 offset-lg-2">
+					</div>
 					<div class="single_post_text">
-						<?php echo $tinTuc[0]['noiDung']; ?>
+						<?php echo $tinTuc[0]['noiDung']; ?>	
 					</div>
 				</div>
 			</div>
@@ -30,6 +34,7 @@
 						<div class="reviews">
 		<div class="container">
 			<div class="row">
+			
 				<div class="col">
 					
 					<div class="reviews_title_container">
@@ -74,5 +79,6 @@
 			</div>
 		</div>
 </div>
+
 
 <?php require(__DIR__.'/layouts/footer.php'); ?>
